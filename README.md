@@ -1,2 +1,5 @@
 # twitch-dashboard
-Very minimalistic web interface showing the live channels you follow
+
+This won't allow you to watch streams. It just lists information on currently live streams that you follow.
+
+I personally use [streamlink](https://github.com/streamlink/streamlink) through the command line. I made this so I could avoid using the twitch client entirely.
