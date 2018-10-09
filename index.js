@@ -41,7 +41,7 @@ function auth() {
 	// redirect the user to a twitch login page where they get a token, then get redirected back here with the token
 	window.location.href = "https://id.twitch.tv/oauth2/authorize" +
 	"?client_id=" + clientID +
-	"&redirect_uri=http://localhost/dev/twitch-live/" +
+	"&redirect_uri=https://veratrum.github.io/twitch-dashboard/" +
 	"&response_type=token" +
 	"&scope=user_read";	
 }
