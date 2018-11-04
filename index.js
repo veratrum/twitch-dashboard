@@ -22,7 +22,7 @@ function getData() {
 		for (var i = 0; i < streams; i++) {
 			output += "<tr>"
 			var name = data.streams[i].channel.display_name;
-			output += "<td><a href=\"http://twitch.tv/" + name + "\">" + name + "</a></td>";
+			output += "<td><a href=\"http://twitch.tv/" + name + "\" target=\"_blank\">" + name + "</a></td>";
 			output += "<td>" + data.streams[i].game + "</td>";
 			output += "<td>" + data.streams[i].viewers + " viewers" + "</td>";
 			output += "<td><img src=\"" + data.streams[i].preview.medium + "?rand=" + Math.random() + "\"></td>";
